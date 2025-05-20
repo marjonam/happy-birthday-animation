@@ -2,7 +2,7 @@ let w = (c.width = window.innerWidth),
   h = (c.height = window.innerHeight),
   ctx = c.getContext("2d"),
   hw = w / 2;
-(hh = h / 2),
+(h = h / 2),
   (opts = {
     strings: ["HAPPY", "BIRTHDAY!"],
     charSize: 30,
